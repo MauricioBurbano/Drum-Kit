@@ -44,4 +44,10 @@ function playDrum(drum) {
                 console.log(drum);
                 break;
         }
+
+        var drumButton = document.querySelector("#" + drum);
+        drumButton.classList.toggle("pressed");
+        setTimeout(function() {
+            drumButton.classList.toggle("pressed");
+        }, 100);
 }

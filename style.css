@@ -42,6 +42,10 @@
     height: 100px;
 }
 
+.pressed {
+    color: red;    
+}
+
 .container {
     display: flex;
     justify-content: center;
